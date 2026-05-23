@@ -1,6 +1,6 @@
-# 💊 Counterfeit Drug Detection — AI for Nigerian Medicine Markets
+# Counterfeit Drug Detection, AI for Nigerian Medicine Markets
 
-> Multi-modal ML system combining NIR spectroscopy, pill image analysis, and packaging OCR to identify counterfeit and substandard drugs in Nigerian markets — deployable as an offline Android app with a clip-on NIR spectrometer. Targeting the 42% of Nigerian drugs estimated to be falsified or substandard (WHO).
+> Multi-modal ML system combining NIR spectroscopy, pill image analysis, and packaging OCR to identify counterfeit and substandard drugs in Nigerian markets, deployable as an offline Android app with a clip-on NIR spectrometer. Targeting the 42% of Nigerian drugs estimated to be falsified or substandard (WHO).
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange.svg)](https://scikit-learn.org)
@@ -11,7 +11,7 @@
 
 ## The Problem
 
-The WHO estimates **42% of antimalarials and antibiotics** in Nigerian markets are substandard or falsified. A community health worker has no way to verify drug authenticity in the field without a lab. Counterfeit drugs kill directly through treatment failure and contribute to antimicrobial resistance. The entire Nigerian supply chain — from port to patent medicine vendor — lacks a real-time authentication layer.
+The WHO estimates **42% of antimalarials and antibiotics** in Nigerian markets are substandard or falsified. A community health worker has no way to verify drug authenticity in the field without a lab. Counterfeit drugs kill directly through treatment failure and contribute to antimicrobial resistance. The entire Nigerian supply chain, from port to patent medicine vendor, lacks a real-time authentication layer.
 
 ---
 
@@ -29,11 +29,11 @@ The WHO estimates **42% of antimalarials and antibiotics** in Nigerian markets a
 
 ## Priority Drug Coverage
 
-- Artemether-Lumefantrine (ACT) — most counterfeited antimalarial
-- Amoxicillin — most counterfeited antibiotic
-- Oxytocin — supply chain integrity critical for maternal survival
-- ARV medications — HIV treatment efficacy
-- Metformin / Glibenclamide — diabetes management
+- Artemether-Lumefantrine (ACT), most counterfeited antimalarial
+- Amoxicillin, most counterfeited antibiotic
+- Oxytocin, supply chain integrity critical for maternal survival
+- ARV medications, HIV treatment efficacy
+- Metformin / Glibenclamide, diabetes management
 
 ---
 
@@ -119,9 +119,9 @@ streamlit run dashboard/app.py
 ## Hardware Integration
 
 The system supports the following NIR spectrometers via Bluetooth API:
-- **SCiO (Consumer Physics)** — pocket-sized, ~$300
-- **Tellspec NIR** — food/pharma grade
-- **Hamamatsu mini-spectrometer** — research grade
+- **SCiO (Consumer Physics)**, pocket-sized, ~$300
+- **Tellspec NIR**, food/pharma grade
+- **Hamamatsu mini-spectrometer**, research grade
 
 For development/testing: synthetic NIR spectra generation is included.
 
